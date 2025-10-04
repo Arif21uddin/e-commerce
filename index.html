@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>JISHAN Kicks - Your Next Step</title>
+<script src="https://cdn.tailwindcss.com"></script>
+ <style>
+        .mobile-menu {
+            transition: max-height 0.3s ease-in-out;
+            overflow: hidden;
+            max-height: 0;
+        }
+        .mobile-menu.open {
+            max-height: 200px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="sticky top-0 z-50 shadow-md bg-white">
+        <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="text-2xl font-extrabold text-indigo-600 tracking-wide">
+                  JISHAN.
+                </a>
+
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-200">Home</a>
+                    <a href="#products" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-200">Products</a>
+                    <a href="#reviews" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-200">Reviews</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 font-medium transition duration-200">Contact</a>
+                </div>
+
+                <button id="hamburger-btn" class="md:hidden text-gray-600 hover:text-indigo-600 p-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+            
+            <div id="mobile-menu" class="mobile-menu md:hidden bg-white">
+                <a href="#home" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50">Home</a>
+                <a href="#products" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50">Products</a>
+                <a href="#reviews" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50">Reviews</a>
+                <a href="#contact" class="block py-2 px-4 text-gray-700 hover:bg-indigo-50">Contact</a>
+    </div>
+  </nav>
+ </header>
+<main>
+ <section id="home" class="relative bg-gray-900 pt-16 pb-20 overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center opacity-40" style="background-image: url('https://via.placeholder.com/1920x800/2a334d/ffffff?text=Performance+Running+Shoe+Banner');"></div>
+ <div class="container mx-auto px-4 py-16 relative z-10 text-white text-center">
+ <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-lg">
+ Unleash Your Potential
+         </h1>
+                <a href="#products" class="inline-block px-8 py-3 text-lg font-semibold rounded-full bg-indigo-600 hover:bg-indigo-700 text-white shadow-xl transition duration-300 transform hover:scale-105">
+                    Shop New Arrivals
+                </a>
+            </div>
+        </section>
+
+        <section id="products" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Our Signature Soles</h2>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://images.price.tools/images/reebok-mens-velocity-runner-lp-sneaker-l-fVv0aROU.jpg" alt="Stride Runner Pro">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Velocity Runner</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Lightweight mesh, energy-return sole. Perfect for daily training runs.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 16600</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://files.ekmcdn.com/e64533/images/urban-jacks-cleveland-men-s-lace-up-trainer-blue-106724-p.png?w=400&h=400&v=05EBB783-A6C9-41B0-8D0E-3653957C3A5F" alt="Urban Trainer">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Urban Trainer</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Retro style with modern comfort. Durable leather and non-slip rubber outsole.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 4500</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEcnpDPyYE-a_7Zl-JooJtxj2Qrcyzp9sRrA&s" alt="Trail Hiker Boot">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Summit Hiker</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Waterproof membrane and aggressive traction for demanding trails.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 19500</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq4vs9Udiw_Bfd-UFr0gHT7CSPFzwJa-5Vjg&s" alt="Basketball High-Top">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Court Dominator</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">High-ankle stability and responsive cushioning for vertical jumps.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 17600</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://www.batabd.com/cdn/shop/products/DSC9781_1024x1024.jpg?v=1756580312" alt="Classic Loafer">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Heritage Loafer</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Full-grain leather with a cushioned footbed for all-day professional wear.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 13500</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://www.batabd.com/cdn/shop/files/2_b36d0d1b-8d34-4757-9921-2cd2e54e819e_1024x1024.jpg?v=1756574945" alt="Comfort Slides">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Cloud Comfort Slide</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Post-workout recovery slides with an ergonomic, quick-dry foam construction.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 4300</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://www.ndure.com/cdn/shop/files/1_f1564ffe-bce7-40f7-bd09-02f3737a1b83.jpg?v=1752840716" alt="Street Sneaker">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Street Vibe X</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Bold colorways and a chunky aesthetic. Maximum street cred guaranteed.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 10900</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWzmPgp9OM66Vq28IE1w6uPEeIzQK02ew3yw&s" alt="Cross Trainer">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Gym Fusion</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Stable base for lifting and flexible forefoot for cardio/cross-training.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 14000</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:scale-[1.03] transition duration-300">
+                        <img class="w-full h-56 object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuQQ8erCgG_eGfIay1SVPCNIo2ZTaWDCMO2g&s" alt="Kids Runner">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-1 text-gray-900">Kid's Zoom</h3>
+                            <p class="text-sm text-gray-500 mb-3 h-10 overflow-hidden">Velcro straps and durable rubber for playtime. Designed for growing feet.</p>
+                            <span class="text-2xl font-bold text-indigo-600">BD 6700</span>
+                            <button class="mt-4 w-full py-2 rounded-lg bg-indigo-600 text-white font-semibold hover:bg-indigo-700 transition duration-300 hover:shadow-md">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section id="reviews" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Hear It From Our Fans</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-indigo-500">
+                        <div class="flex items-center mb-4">
+                            <img class="w-12 h-12 rounded-full object-cover mr-4" src="data:image/jpeg;base64,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" alt="ANAMUL">
+                            <div>
+                                <p class="font-semibold text-gray-900">Anamul</p>
+                                <div class="flex text-yellow-400">
+                                    <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">"The Velocity Runners are the most comfortable shoes I've ever owned. Zero break-in time and they look fantastic!"</p>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-indigo-500">
+                        <div class="flex items-center mb-4">
+                            <img class="w-12 h-12 rounded-full object-cover mr-4" src="https://static.vecteezy.com/system/resources/previews/005/346/410/non_2x/close-up-portrait-of-smiling-handsome-young-caucasian-man-face-looking-at-camera-on-isolated-light-gray-studio-background-photo.jpg" alt="Rajiv Karim">
+                            <div>
+                                <p class="font-semibold text-gray-900">Rajiv Karim</p>
+                                <div class="flex text-yellow-400">
+                                    <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg text-gray-300">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">"I bought the Summit Hikers for my trip. They are rugged, waterproof, and surprisingly light. Great value for the price."</p>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-indigo-500">
+                        <div class="flex items-center mb-4">
+                            <img class="w-12 h-12 rounded-full object-cover mr-4" src="https://st3.depositphotos.com/10313122/32689/i/450/depositphotos_326897814-stock-photo-portrait-young-handsome-indian-man.jpg" alt="Tawfiqul Islam">
+                            <div>
+                                <p class="font-semibold text-gray-900">Tawfiqul Islam</p>
+                                <div class="flex text-yellow-400">
+                                    <span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span><span class="text-lg">★</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">"Excellent customer service! The Urban Trainers are stylish and held up well against city wear and tear."</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+     <section id="contact" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Contact Our Team</h2>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                    
+                    <div class="space-y-6 lg:col-span-1">
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-800">Our Details</h3>
+                        
+                        <div class="flex items-start">
+                            <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <div class="ml-4">
+                                <p class="text-gray-900 font-medium">Headquarters</p>
+                                <p class="text-gray-600">45 Heel Rd,  Ghol Pahar, N 10001</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <div class="ml-4">
+                                <p class="text-gray-900 font-medium">Email Support</p>
+                                <a href="mailto:support@stridekicks.com" class="text-indigo-600 hover:text-indigo-800 transition">info@jishan.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <svg class="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            <div class="ml-4">
+                                <p class="text-gray-900 font-medium">Phone</p>
+                                <a href="tel:+18005550123" class="text-indigo-600 hover:text-indigo-800 transition">+880 018123456789</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-lg lg:col-span-2">
+                        <h3 class="text-2xl font-semibold mb-6 text-gray-800">Send Us a Quick Note</h3>
+                        <form action="#" method="POST" class="space-y-4">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="c-name" class="block text-sm font-medium text-gray-700">Name</label>
+                                    <input type="text" id="c-name" placeholder="Your Name" class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" required>
+                                </div>
+                                <div>
+                                    <label for="c-email" class="block text-sm font-medium text-gray-700">Email</label>
+                                    <input type="email" id="c-email" placeholder="email@example.com" class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" required>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="c-message" class="block text-sm font-medium text-gray-700">Message</label>
+                                <textarea id="c-message" rows="4" placeholder="How can we help you today?" class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500" required></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-2 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition duration-300 transform hover:scale-[1.005]">
+                                Send Inquiry
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center border-b border-gray-700 pb-6 mb-6">
+                
+                <div class="flex space-x-6 mb-4 md:mb-0">
+                    <a href="#home" class="text-gray-400 hover:text-indigo-400 transition text-sm">Home</a>
+                    <a href="#" class="text-gray-400 hover:text-indigo-400 transition text-sm">About</a>
+                    <a href="#contact" class="text-gray-400 hover:text-indigo-400 transition text-sm">Contact</a>
+                </div>
+
+                <div class="flex space-x-4">
+                    <a href="#" aria-label="Facebook" class="text-gray-400 hover:text-indigo-400 transition"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-2c-1.104 0-2 .896-2 2v2h4l-1 4h-3v8h-4v-8h-3v-4h3v-2.198c0-2.455 1.488-3.802 3.821-3.802h3.179v4z"/></svg></a>
+                    <a href="#" aria-label="Twitter" class="text-gray-400 hover:text-indigo-400 transition"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.791-1.574 2.16-2.723-.951.558-2.007.957-3.127 1.171-.893-.949-2.179-1.545-3.593-1.545-2.71 0-4.914 2.204-4.914 4.914 0 .387.044.766.128 1.127-4.085-.205-7.721-2.152-10.151-5.111-.42 7.02 3.55 10.999 9.177 12.356-.833.227-1.71.34-2.6.34-.143 0-.285-.008-.426-.025 2.924 9.14 10.741 12.87 20.25 10.643 1.954-1.517 3.327-3.791 3.327-6.22 0-.411-.035-.815-.104-1.21-.996-.77-2.13-1.397-3.37-1.835z"/></svg></a>
+                    <a href="#" aria-label="Instagram" class="text-gray-400 hover:text-indigo-400 transition"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.015 4.85.061 1.041.047 1.78.22 2.45.477.696.272 1.258.643 1.765 1.15s.885 1.069 1.15 1.765c.257.67.43 1.409.477 2.45.046 1.266.061 1.646.061 4.85s-.015 3.584-.061 4.85c-.047 1.041-.22 1.78-.477 2.45-.272.696-.643 1.258-1.15 1.765s-1.069.885-1.765 1.15c-.67.257-1.409.43-2.45.477-1.266.046-1.646.061-4.85.061s-3.584-.015-4.85-.061c-1.041-.047-1.78-.22-2.45-.477-.696-.272-1.258-.643-1.765-1.15s-.885-1.069-1.15-1.765c-.257-.67-.43-1.409-.477-2.45-.046-1.266-.061-1.646-.061-4.85s.015-3.584.061-4.85c.047-1.041.22-1.78.477-2.45.272-.696.643-1.258 1.15-1.765s1.069-.885 1.765-1.15c.67-.257 1.409-.43 2.45-.477 1.266-.046 1.646-.061 4.85-.061zm0-2.163c-3.267 0-3.666.015-4.942.061-1.135.05-1.926.23-2.655.518-.755.298-1.378.784-1.944 1.35s-1.052 1.189-1.35 1.944c-.288.729-.468 1.52-.518 2.655-.046 1.276-.061 1.675-.061 4.942s.015 3.666.061 4.942c.05 1.135.23 1.926.518 2.655.298.755.784 1.378 1.35 1.944s1.189.952 1.944 1.35c.729.288 1.52.468 2.655.518 1.276.046 1.675.061 4.942.061s3.666-.015 4.942-.061c1.135-.05 1.926-.23 2.655-.518.755-.298 1.378-.784 1.944-1.35s.952-1.189 1.35-1.944c.288-.729.468-1.52.518-2.655.046-1.276.061-1.675.061-4.942s-.015-3.666-.061-4.942c-.05-1.135-.23-1.926-.518-2.655-.298-.755-.784-1.378-1.35-1.944s-1.189-.952-1.944-1.35c-.729-.288-1.52-.468-2.655-.518-1.276-.046-1.675-.061-4.942-.061zm0 5.863c-2.055 0-3.723 1.668-3.723 3.723s1.668 3.723 3.723 3.723 3.723-1.668 3.723-3.723c0-2.055-1.668-3.723-3.723-3.723zm0 6.163c-1.345 0-2.44-1.095-2.44-2.44s1.095-2.44 2.44-2.44 2.44 1.095 2.44 2.44-1.095 2.44-2.44 2.44zm4.615-5.998c0-.517.42-.937.937-.937s.937.42.937.937-.42.937-.937.937-.937-.42-.937-.937z"/></svg></a>
+                </div>
+            </div>
+            
+            <div class="text-center text-sm text-gray-400">
+                &copy; <span id="current-year">2024</span> Jishan Kicks. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        hamburgerBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('open');
+        });
+        
+        // Close menu when a link is clicked
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('open');
+            });
+        });
+    </script>
+</body>
+</html>
